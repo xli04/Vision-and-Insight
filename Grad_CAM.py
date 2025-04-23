@@ -9,7 +9,7 @@ from PIL import Image
 import cv2
 from collections import defaultdict
 from model_basic import BasicCNN, ArtDataset
-from model_attention import BasicCNNWithAttention  # 导入带注意力的模型
+from model_attention import BasicCNNWithAttention
 
 class GradCAM:
     def __init__(self, model, target_layer):
